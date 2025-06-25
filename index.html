@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BOGO Offer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    
+  <h2>YAY! It’s BOGO</h2>
+  
+  <div class="unit-option">
+    <label>
+    
+      
+      <div class="unit-box">
+        <input type="radio" name="unit" value="1" />
+        <div class="left">
+          <div class = "single-line"><b>1 Unit</b> <span class="tag-color tag-text">10% Off</span></div>
+          <div class="single-line">Standard Price</div>
+        </div>
+        <div class="dropdown-container" data-units="1"></div>
+        <div class="right">
+          <div class="price single-line">$10.00 USD</div>
+          <div class="strikethrough single-line">$24.00 USD</div>
+        </div>
+        
+      </div>
+      </div>
+    </label>
+  </div>
+  
+  <div class="unit-option">
+    <label>
+      
+      <div class="unit-box popular">
+        <input type="radio" name="unit" value="2" />
+        <div class="popular-tag"><b>MOST POPULAR</b></div>
+        <div class="left">
+          <div class = "single-line"><b>2 Unit</b> <span class="tag-color tag-text">20% Off</span></div>
+          
+        </div>
+        <div class="dropdown-container" data-units="2"></div>
+        <div class="right">
+          <div class="price single-line">$18.00 USD</div>
+          <div class="strikethrough single-line">$24.00 USD</div>
+        </div>
+        
+      </div>
+    </label>
+  </div>
+
+  
+  <div class="unit-option">
+    <label>
+      
+      <div class="unit-box">
+        <input type="radio" name="unit" value="3" />
+        <div class="left">
+          <div class = "single-line"><b>3 Unit </b><span class="tag-color tag-text">30% Off</span></div>
+        </div>
+        <div class="dropdown-container" data-units="3"></div>
+        <div class="right">
+          <div class="price single-line">$24.00 USD</div>
+          <div class="strikethrough single-line">$24.00 USD</div>
+        </div>
+        
+      </div>
+    </label>
+  </div>
+
+  <div class="footer">
+    <div class="price-container">
+    <p class="delivery text-align">Free Delivery</p>
+    <p class="total right">Total: <span id="total-price">$0.00 USD</span></p></div>
+    <button class="cart-button">+ Add to Cart</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
